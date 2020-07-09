@@ -1,0 +1,16 @@
+name: Issue Assigner
+
+on:
+    issues:
+        types: [opened]
+
+jobs:
+    assign:
+        name: Assign
+        runs-on: ubuntu-latest
+        steps:
+            - name: Assign
+              uses: pozil/auto-assign-issue@v1
+              with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  assignees: DimiDimit

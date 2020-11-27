@@ -10,4 +10,3 @@ co-authored-by
 pr
 
 sq1
-sq2

@@ -10,3 +10,5 @@ co-authored-by
 pr
 
 sq1
+
+close-pr

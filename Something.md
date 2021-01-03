@@ -11,4 +11,4 @@ pr
 
 sq1
 
-close-pr
+closed-pr
